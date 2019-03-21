@@ -1,0 +1,13 @@
+﻿C:\Users\USER\AppData\Local\Programs\Python\Python35\python.exe
+
+vrp10:
+C:\Users\USER\Desktop\VRP-RL\logs\vrp10-2019-03-02_14-33-10\model
+C:\Users\USER\Desktop\VRP-RL\logs\vrp10-2019-03-02_14-44-47\results.txt
+
+vrp20:
+C:\Users\USER\Desktop\VRP-RL\logs\vrp20-2019-03-02_15-37-11\model
+C:\Users\USER\Desktop\VRP-RL\logs\vrp20-2019-03-02_16-25-18\results.txt
+
+vrp50:
+C:\Users\USER\Desktop\VRP-RL\logs\vrp50-2019-03-02_15-48-08\model
+C:\Users\USER\Desktop\VRP-RL\logs\vrp50-2019-03-02_16-26-52\results.txt
