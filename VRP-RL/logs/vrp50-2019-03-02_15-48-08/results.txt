@@ -1,0 +1,49 @@
+actor_net_lr: 0.0001
+agent_type: attention
+batch_size: 128
+beam_width: 10
+capacity: 40
+critic_net_lr: 0.0001
+data_dir: data
+decode_len: 70
+demand_max: 9
+disable_tqdm: True
+dropout: 0.1
+embedding_dim: 128
+entropy_coeff: 0.0
+forget_bias: 1.0
+gpu: 0
+hidden_dim: 128
+infer_type: batch
+input_dim: 3
+is_train: True
+load_path: 
+log_dir: logs/vrp50-2019-03-02_15-48-08
+log_interval: 200
+mask_glimpses: True
+mask_pointer: True
+max_grad_norm: 2.0
+model_dir: logs/vrp50-2019-03-02_15-48-08\model
+n_cust: 50
+n_glimpses: 1
+n_nodes: 51
+n_process_blocks: 3
+n_train: 260000
+random_seed: 24601
+rnn_layers: 1
+save_interval: 10000
+stdout_print: True
+tanh_exploration: 10.0
+task: vrp50
+task_name: vrp
+test_interval: 200
+test_size: 1000
+use_tanh: False
+# Set random seed to 24601
+It took 88.4294843673706s to build the agent.
+Training started ...
+Train Step: 0 -- Time: 00:00:58 -- Train reward: 31.8565673828125 -- Value: 0.01898174174129963
+    actor loss: -5334.638671875 -- critic loss: 1022.3067626953125
+Average of greedy in batch-mode: 36.667083740234375 -- std 6.486320972442627 -- time 25.663333654403687 s
+Average of beam_search in batch-mode: 36.25031661987305 -- std 6.264028072357178 -- time 164.4025297164917 s
+##################################################################

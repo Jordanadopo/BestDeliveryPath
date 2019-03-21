@@ -1,0 +1,54 @@
+actor_net_lr: 0.0001
+agent_type: attention
+batch_size: 128
+beam_width: 10
+capacity: 30
+critic_net_lr: 0.0001
+data_dir: data
+decode_len: 30
+demand_max: 9
+disable_tqdm: True
+dropout: 0.1
+embedding_dim: 128
+entropy_coeff: 0.0
+forget_bias: 1.0
+gpu: 0
+hidden_dim: 128
+infer_type: batch
+input_dim: 3
+is_train: True
+load_path: 
+log_dir: logs/vrp20-2019-03-02_15-37-11
+log_interval: 200
+mask_glimpses: True
+mask_pointer: True
+max_grad_norm: 2.0
+model_dir: logs/vrp20-2019-03-02_15-37-11\model
+n_cust: 20
+n_glimpses: 1
+n_nodes: 21
+n_process_blocks: 3
+n_train: 260000
+random_seed: 24601
+rnn_layers: 1
+save_interval: 10000
+stdout_print: True
+tanh_exploration: 10.0
+task: vrp20
+task_name: vrp
+test_interval: 200
+test_size: 1000
+use_tanh: False
+# Set random seed to 24601
+It took 40.351110219955444s to build the agent.
+Training started ...
+Train Step: 0 -- Time: 00:00:23 -- Train reward: 14.100109100341797 -- Value: 0.003018248826265335
+    actor loss: -728.0040893554688 -- critic loss: 201.8176727294922
+Average of greedy in batch-mode: 15.333463668823242 -- std 2.9272677898406982 -- time 7.31244158744812 s
+Average of beam_search in batch-mode: 15.196033477783203 -- std 2.6234450340270996 -- time 32.61090397834778 s
+##################################################################
+Train Step: 200 -- Time: 00:05:24 -- Train reward: 13.288789749145508 -- Value: 8.184016227722168
+    actor loss: -241.81695556640625 -- critic loss: 29.26651382446289
+Average of greedy in batch-mode: 11.72800350189209 -- std 1.541368842124939 -- time 3.7848777770996094 s
+Average of beam_search in batch-mode: 11.438714981079102 -- std 1.4980188608169556 -- time 29.347506523132324 s
+##################################################################
